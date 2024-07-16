@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular servicio compartido</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Calcular servicio compartido</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="costoTotal" class="form-label">Costo Total del servicio compartido</label>
+                            <input type="number" class="form-control" id="costoTotal" placeholder="Ingrese el costo total">
+                        </div>
+                        <div id="apartamentos"></div>
+                        <button id="agregarApartamento" class="btn btn-secondary mt-2">Agregar Apartamento</button>
+                        <button id="calcular" class="btn btn-primary mt-3 w-100">Calcular Costos</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="resultados" class="mt-4"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="calculator.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
