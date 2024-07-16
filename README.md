@@ -44,6 +44,6 @@ Pasos para el cálculo:
 5. Redondeamos a dos decimales para obtener un valor en pesos y centavos:
    C_i = $41,052.63
 
-Por lo tanto, el costo del agua para el apartamento i, que tiene 3 habitantes, es de $41,052.63.
+Por lo tanto, el costo del servicio compartido para el apartamento i, que tiene 3 habitantes, es de $41,052.63.
 
 Nota: Este cálculo se repite para cada apartamento, cambiando el valor de H_i según el número de habitantes en cada uno. La suma de los costos de todos los apartamentos debe ser igual al costo total del agua ($260,000).
