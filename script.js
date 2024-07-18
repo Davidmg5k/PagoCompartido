@@ -5,7 +5,7 @@ $(document).ready(function() {
         apartamentoCount++;
         const nuevoApartamento = `
             <div class="mb-3 apartamento-input">
-                <label for="apartamento${apartamentoCount}" class="form-label">Apartamento ${apartamentoCount}</label>
+                <label for="apartamento${apartamentoCount}" class="form-label">Servicio ${apartamentoCount}</label>
                 <input type="number" class="form-control" id="apartamento${apartamentoCount}" placeholder="Número de habitantes">
             </div>
         `;
@@ -24,7 +24,7 @@ $(document).ready(function() {
         });
 
         if (isNaN(costoTotal) || habitantes.length === 0) {
-            alert('Por favor, ingrese el costo total y al menos un apartamento con habitantes.');
+            alert('Por favor, ingrese el costo total y al menos un servicio con variantes.');
             return;
         }
 
