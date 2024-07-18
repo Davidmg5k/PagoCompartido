@@ -6,7 +6,7 @@ $(document).ready(function() {
         const nuevoApartamento = `
             <div class="mb-3 apartamento-input">
                 <label for="apartamento${apartamentoCount}" class="form-label">Servicio ${apartamentoCount}</label>
-                <input type="number" class="form-control" id="apartamento${apartamentoCount}" placeholder="Número de habitantes">
+                <input type="number" class="form-control" id="apartamento${apartamentoCount}" placeholder="Número de variantes">
             </div>
         `;
         $('#apartamentos').append(nuevoApartamento);
@@ -39,7 +39,7 @@ $(document).ready(function() {
                 <div class="col-md-3 mb-3">
                     <div class="card">
                         <div class="card-body text-center">
-                            <h5 class="card-title">Apartamento ${index + 1}</h5>
+                            <h5 class="card-title">Servicio ${index + 1}</h5>
                             <p class="card-text">$${costo.toFixed(2)}</p>
                         </div>
                     </div>
